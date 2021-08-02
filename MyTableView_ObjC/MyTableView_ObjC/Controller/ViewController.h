@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-
-@property (strong, nonatomic) IBOutlet UITableView *myTableView;
+@interface ViewController : UIViewController // <UITableViewDelegate, UITableViewDataSource> // conform tableview in storyboard 
+// tableview in storyboard
+//@property (strong, nonatomic) IBOutlet UITableView *myTableView;
 
 @end
 
